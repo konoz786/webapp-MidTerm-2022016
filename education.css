@@ -1,0 +1,212 @@
+.education-card{
+    display:inline-block;
+    height:250px;
+    width:400px;
+    border-radius:10px;
+    font-size:25px;
+    text-align:center;
+    background-color: #00cbbc;
+    border:3px solid white;
+    color:white;
+    transition:0.5s;
+    font-weight:bold;
+    padding:10px 0 0 0;
+    font-family:'Montserrat', sans-serif;
+}
+
+.education-card:hover{
+    transform:scale(1.2);
+}
+
+#education .div-title{
+        font-size:50px;
+        text-align:center;
+        font-weight:bold;
+        padding:20px 0;
+        color:white;
+        font-family: 'Quicksand', sans-serif;
+}
+
+img{
+    max-width:100%;
+    max-height:100%;
+    object-fit:cover;
+}
+
+#education{
+    background-image:url(contact.jpg);
+}
+
+.center-line{
+    height:700px;
+    width:3px;
+    border:none;
+    background-color:white;
+    display:inline-block;
+    position: relative;
+    left:350px;
+    bottom:60px;
+}
+
+.education-card.row1{
+    position: relative;
+    bottom:10px;
+    left:200px;
+   
+}
+
+.education-card .card-row{
+    margin:15px 0;
+}
+
+.education-card.row3{
+    position: relative;
+    top:200px;
+    left:80px;
+}
+
+.education-card.row2{
+    position: relative;
+    top:490px;
+    right:200px;
+}
+
+.timeline{
+    display:inline-block;
+    width:100px;
+    height:50px;
+    background-color: #00cbbc;
+    border:2px solid white;
+    position: relative;
+    border-radius:15px;
+    font-size:30px;
+    text-align:center;
+    padding:5px 0 0 0;
+    font-weight:bold;
+    color:white;
+    font-family:'Montserrat', sans-serif;
+}
+
+.timeline.row1{
+    right:50px;
+}
+
+.timeline.row3{
+    top:560px;
+    right:50px;
+}
+
+.timeline.row2{
+    top:250px;
+    right:50px;
+}
+
+@media (max-width:600px){
+    .education-card{
+        display:inline-block;
+        height:100px;
+        width:160px;
+        border-radius:10px;
+        font-size:10px;
+        text-align:center;
+        background-color: #00cbbc;
+        border:3px solid white;
+        color:white;
+        transition:0.5s;
+        font-weight:bold;
+        padding:2px 5px;;
+        font-family:'Montserrat', sans-serif;
+    }
+    
+    .education-card:hover{
+        transform:scale(1.2);
+    }
+    
+    #education .div-title{
+            font-size:30px;
+            text-align:center;
+            font-weight:bold;
+            padding:20px 0;
+            color:white;
+            font-family: 'Quicksand', sans-serif;
+    }
+    
+    img{
+        max-width:100%;
+        max-height:100%;
+        object-fit:cover;
+    }
+    
+    #education{
+        background-image:url(patternpad.jpg);
+        height:100vh;
+        width:100vw;
+        position: relative;
+    }
+    
+    .center-line{
+        height:600px;
+        width:3px;
+        border:none;
+        background-color:white;
+        display:inline-block;
+        position:absolute;
+        left:80px;
+        bottom:60px;
+    }
+    
+    .education-card.row1{
+        position: absolute;
+        bottom:565px;
+        left:140px;
+    }
+    
+    .education-card .card-row{
+        margin:7px 0;
+    }
+    
+    .education-card.row3{
+        position: absolute;
+        left:140px;
+        top:350px;
+        
+    }
+    
+    .education-card.row2{
+        position: absolute;
+        left:140px;
+        margin-top:135px;
+        
+        
+    }
+    
+    .timeline{
+        display:inline-block;
+        width:60px;
+        height:30px;
+        background-color: #00cbbc;
+        border:2px solid white;
+        position: relative;
+        border-radius:6px;
+        font-size:12px;
+        text-align:center;
+        padding:5px 0;
+        font-weight:bold;
+        color:white;
+        font-family:'Montserrat', sans-serif;
+    }
+    
+    .timeline.row1{
+        left:-28px;
+    }
+    
+    .timeline.row3{
+        top:528px;
+        left:-28px;
+    }
+    
+    .timeline.row2{
+        top:250px;
+        left:-28px;
+    }
+}

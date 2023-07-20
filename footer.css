@@ -1,0 +1,150 @@
+.icons{
+    list-style-type:none;
+    text-align: center;
+}
+
+.icons li{
+    display: inline;
+    margin:0 10px 0 10px;
+}
+
+.btn{
+    height:50px;
+    width:50px;
+    transition-property: background;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in;
+    border:3px solid #00CCCC;
+    background-color:#007791;
+    border-radius:100px;
+}
+
+.fa-brands,.fa-facebook{
+    color:white;
+    font-size:2rem;
+}
+
+.btn:hover{
+  background-color:#00CCCC;
+  transform:scale(1.2);
+  cursor: pointer;
+}
+
+#footer {
+    background-color: #007791;
+    padding:0 0 10px 0;
+}
+
+.footer-section{
+    font-size:1.5rem;
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    text-align: center;
+    opacity:0.7;
+    padding:0.5% 0 1% 0;
+    text-align:center;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.footer-section1{
+   display:flex;
+   justify-content:center;
+   color:white;
+   padding:2% 0 0 0;
+
+}
+
+.span1{
+    font-size:1.5rem;
+    opacity:0.7;
+    font-family: 'Urbanist', sans-serif;
+    word-spacing:2px;
+    margin:0 6px 0 0;
+    font-style: italic;
+    font-weight:200;
+}
+
+.span2{
+    font-family: 'Caveat', cursive;
+    font-size:1.5rem;
+    word-spacing:2px;
+}
+
+@media (max-width:600px){
+    .icons{
+        list-style-type:none;
+        text-align: center;
+        padding:2% 0 0 0;
+    }
+    
+    .icons li{
+        display: inline;
+        margin:0 10px 0 10px;
+    }
+    
+    .btn{
+        height:40px;
+        width:40px;
+        transition-property:background;
+        transition-duration: 0.4s;
+        transition-timing-function: ease-in;
+        border:3px solid #00CCCC;
+        background-color:#007791;
+        border-radius:100px;
+    }
+    
+    .fa-brands,.fa-facebook{
+        color:white;
+        font-size:1.5rem;
+    }
+    
+    .btn:hover{
+      background-color:#00CCCC;;
+      transform:scale(1.2);
+      cursor: pointer;
+    }
+    
+    #footer {
+        background-color: #007791;
+        padding:0 0 10px 0;
+    }
+    
+    .footer-section{
+        font-size:1rem;
+        color: white;
+        font-weight: bolder;
+        width: 100%;
+        text-align: center;
+        opacity:0.7;
+        padding:0.5% 0 1% 0;
+        text-align:center;
+        font-family: 'Urbanist', sans-serif;
+        word-spacing:2px;
+    }
+    
+    .footer-section1{
+       display:flex;
+       justify-content:center;
+       color:white;
+       padding:2% 0 0 0;
+    
+    }
+    
+    .span1{
+        font-size:1.2rem;
+        opacity:0.7;
+        font-family: 'Urbanist', sans-serif;
+        word-spacing:2px;
+        margin:0 6px 0 0;
+        font-style: italic;
+        font-weight:200;
+        word-spacing:2px;
+    }
+    
+    .span2{
+        font-family: 'Caveat', cursive;
+        font-size:1.2rem;
+        word-spacing:2px;
+    }
+}

@@ -1,0 +1,89 @@
+#about-me .image-container{
+    height:500px;
+    width:375px;
+    display:inline-block;
+    position:absolute;
+    top:130px;
+    left:150px;
+    border-radius:10px;
+}
+
+#about-me .description{
+    width:700px;
+    display:inline-block;
+    position:absolute;
+    left:700px;
+    text-align:center;
+    
+}
+
+#about-me{
+    color:white;
+    background-image:url(about-me.jpg);
+    height:100vh;
+    width:100%;
+    position: relative;
+}
+
+.about-me-section-heading{
+    font-size:2.5rem;
+    font-weight: bolder;
+    font-family: 'Sriracha', cursive;
+    word-spacing:6px;
+   
+  }
+  
+  .about-me-section-description{
+      font-size: 1.8rem;
+      font-family: 'Sriracha', cursive;
+      word-spacing:6px;
+     
+    }
+
+    @media (max-width:600px){
+
+        #about-me .image-container{
+            height:200px;
+            width:150px;
+            display:inline-block;
+            position:absolute;
+            top:20px;
+            left:105px;
+            border-radius:10px;
+        }
+        
+        #about-me .description{
+            width:500px;
+            display:inline-block;
+            position:absolute;
+            left:-60px;
+            top:220px;
+            padding:0 30px;
+        }
+        
+        #about-me{
+            color:white;
+            background-image:url(about-me.jpg);
+            width:100%;
+            position: relative;
+            height:100vh;
+        }
+        
+        .about-me-section-heading{
+            font-size:25px;
+            font-weight: bolder;
+            font-family: 'Sriracha', cursive;
+            word-spacing:2px;
+           
+          }
+          
+          .about-me-section-description{
+              font-size:18px;
+              font-family: 'Sriracha', cursive;
+              word-spacing:2px;
+             
+            }
+    }
+
+
+        
